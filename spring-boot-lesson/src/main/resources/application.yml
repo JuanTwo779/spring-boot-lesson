@@ -1,0 +1,9 @@
+#change server port
+server:
+  port: 8080
+
+#disable the web server when wat = none
+#uneccesary code if wat = servlet - default
+spring:
+  main:
+    web-application-type: servlet
